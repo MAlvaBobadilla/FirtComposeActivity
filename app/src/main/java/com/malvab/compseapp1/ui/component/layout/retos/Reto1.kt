@@ -1,4 +1,4 @@
-package com.malvab.compseapp1.ui.component.layout
+package com.malvab.compseapp1.ui.component.layout.retos
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

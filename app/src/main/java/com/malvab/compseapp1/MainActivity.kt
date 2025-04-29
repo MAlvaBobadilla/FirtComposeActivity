@@ -11,9 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.malvab.compseapp1.ui.component.layout.MyColumn
-import com.malvab.compseapp1.ui.component.layout.MyComplexLayout
-import com.malvab.compseapp1.ui.component.layout.Reto1
+import com.malvab.compseapp1.ui.component.layout.retos.Reto2
 import com.malvab.compseapp1.ui.theme.CompseApp1Theme
 
 class MainActivity : ComponentActivity() {
@@ -23,7 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             CompseApp1Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Reto1(modifier = Modifier.padding(innerPadding))
+                    Reto2(modifier = Modifier.padding(innerPadding))
                 }
             }
         }

@@ -51,8 +51,7 @@ dependencies {
     implementation(libs.androidx.material3)
 
     //Constraint Layout
-    implementation(libs.constraint.layout)
-
+    implementation(libs.constraintlayout)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
