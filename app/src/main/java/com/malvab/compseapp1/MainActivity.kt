@@ -7,11 +7,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.malvab.compseapp1.ui.component.layout.retos.Reto2
+import com.malvab.compseapp1.components.MyButtons
+import com.malvab.compseapp1.components.MyImages
+import com.malvab.compseapp1.components.MyTextField
 import com.malvab.compseapp1.ui.theme.CompseApp1Theme
 
 class MainActivity : ComponentActivity() {
@@ -21,25 +20,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             CompseApp1Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Reto2(modifier = Modifier.padding(innerPadding))
+                    MyImages(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    CompseApp1Theme {
-        Greeting("Android")
     }
 }

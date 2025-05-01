@@ -1,4 +1,4 @@
-package com.malvab.compseapp1.ui.component.layout
+package com.malvab.compseapp1.components.layout
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
